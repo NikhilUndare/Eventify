@@ -2,7 +2,13 @@
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className=" border-t">
+      <div className="mx-auto py-10">
+        <p className="text-center text-xs text-black">
+          &copy; 2024 Eventify, Inc. All rights reserved.
+        </p>
+      </div>
+    </footer>
   )
 }
 
